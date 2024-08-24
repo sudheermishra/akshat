@@ -5,6 +5,8 @@ import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import DarkMode from "../UI/DarkMode";
 import BackDrop from "../UI/BackDrop";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 function Navbar() {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
@@ -46,15 +48,19 @@ function Navbar() {
 
             <li>
               <a
-                href="https://www.linkedin.com/in/uzair-sayyed-093a4321b/"
+                href="https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6"
                 target="_blank"
-                onClick={handleNavigationClick}></a>
+                onClick={handleNavigationClick}>
+                <FaInstagram />
+              </a>
             </li>
             <li>
               <a
-                href="https://github.com/uzair-sayyed"
+                href="https://www.youtube.com/@artsonu10/featured"
                 target="_blank"
-                onClick={handleNavigationClick}></a>
+                onClick={handleNavigationClick}>
+                <FaYoutube />
+              </a>
             </li>
           </ul>
           <div className="mobile">

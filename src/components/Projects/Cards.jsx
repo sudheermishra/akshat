@@ -23,6 +23,8 @@ function Cards() {
       image: threeimg,
       description:
         "Hanuman, the revered Hindu deity, embodies unwavering devotion, strength, and loyalty. Known for his role in the epic Ramayana, Hanuman is revered for his selfless service to Lord Rama, displaying extraordinary courage and intelligence. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 2,
@@ -30,6 +32,8 @@ function Cards() {
       image: fourimg,
       description:
         "Lord Krishna, one of the most beloved deities in Hinduism, is the eighth incarnation of Lord Vishnu. He is celebrated as the divine statesman, master strategist, and the embodiment of love and joy.",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 3,
@@ -37,6 +41,8 @@ function Cards() {
       image: fiveimg,
       description:
         "Radha, often referred to as the eternal consort of Lord Krishna, embodies the pinnacle of divine love and devotion in Hinduism.",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 4,
@@ -44,6 +50,8 @@ function Cards() {
       image: siximg,
       description:
         "Lord Shiva, one of the principal deities in Hinduism, is known as the destroyer and transformer within the Holy Trinity, which includes Brahma the creator and Vishnu the preserver. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 5,
@@ -51,6 +59,8 @@ function Cards() {
       image: sevenimg,
       description:
         "Lord Ganesha, also known as Ganapati or Vinayaka, is one of the most beloved and widely worshiped deities in Hinduism. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 6,
@@ -58,6 +68,8 @@ function Cards() {
       image: eightimg,
       description:
         "Lord Mahakal, a revered aspect of Lord Shiva, is the embodiment of time, death, and the ultimate cosmic force that transcends both. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 7,
@@ -65,6 +77,8 @@ function Cards() {
       image: tenimg,
       description:
         "Lord Shiva, one of the principal deities in Hinduism, is known as the destroyer and transformer within the Holy Trinity, which includes Brahma the creator and Vishnu the preserver.",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 8,
@@ -72,6 +86,8 @@ function Cards() {
       image: nineimg,
       description:
         "Goddess Parvati is a central figure in Hindu mythology, revered as the divine mother and the embodiment of love, fertility, and devotion. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 9,
@@ -79,6 +95,8 @@ function Cards() {
       image: elevenimg,
       description:
         "Lord Shri Rama, the seventh incarnation of Lord Vishnu, is one of the most revered and celebrated deities in Hinduism. He is the central figure in the epic Ramayana, where he is portrayed as the ideal man—an embodiment of virtue, righteousness, and moral integrity.",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 10,
@@ -86,6 +104,8 @@ function Cards() {
       image: twelvwimg,
       description:
         "Maa Durga is a powerful and revered goddess in Hinduism, symbolizing strength, courage, and divine feminine energy. She is celebrated as a warrior goddess who protects the universe from evil forces and restores cosmic order. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 11,
@@ -93,6 +113,8 @@ function Cards() {
       image: thirteenimg,
       description:
         "In Hindu tradition, Shiva and Parvati's marriage is considered a sacred and ideal union, symbolizing the harmonious balance between the masculine and feminine energies of the universe. is ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 12,
@@ -100,6 +122,8 @@ function Cards() {
       image: fourteenimg,
       description:
         "'Umapati'is a revered name for Lord Shiva, reflecting his role as the beloved consort of Goddess Parvati, who is also known as Uma. The term 'Umapati' translates to 'Lord of Uma,' signifying Shiva's deep and enduring relationship with Parvati.",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 13,
@@ -107,6 +131,8 @@ function Cards() {
       image: fifteenimg,
       description:
         "'Veer Hanuman' refers to Lord Hanuman in his valorous and heroic aspect. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
     {
       id: 14,
@@ -114,6 +140,8 @@ function Cards() {
       image: sixteenimg,
       description:
         "Neelkanth is one of the revered names of Lord Shiva, symbolizing his immense power, compassion, and his role as the protector of the cosmos. ",
+      Instagram: "https://www.instagram.com/sonu_arts_10?igsh=Yms4dm01eHU5b3B6",
+      Youtube: "https://www.youtube.com/@artsonu10/featured",
     },
   ]);
   return datas.map((data) => {
