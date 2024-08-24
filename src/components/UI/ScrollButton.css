@@ -1,0 +1,19 @@
+.scroll-btn {
+  position: sticky;
+  width: 40px;
+  bottom: 14px;
+  margin-left: 89%;
+  font-size: 40px;
+  border: none;
+  background: none;
+  z-index: 11;
+  cursor: pointer;
+}
+
+@media (width < 768px) {
+  .scroll-btn {
+    color: black;
+
+    font-size: 30px;
+  }
+}

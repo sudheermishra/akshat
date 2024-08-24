@@ -1,0 +1,178 @@
+.nav {
+  background-color: var(--nav-bg-color);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.05);
+  z-index: 10;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 10px;
+}
+.gradient-text {
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(to right, #13b0f5, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-content img {
+  width: 120px;
+}
+
+#open,
+#close {
+  display: none;
+  font-size: 22px;
+  color: var(--nav_section-heading);
+}
+
+.github-icon,
+.linkedin-icon {
+  font-size: 22px;
+  margin-top: 6px;
+}
+#nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#nav-links li {
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#nav-links li a {
+  color: var(--nav_section-heading);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+#nav-links li:hover {
+  scale: 1.06;
+
+  transition: 0.2s ease-in-out;
+}
+
+.responsive-contact {
+  display: none;
+}
+@media (width<996px) {
+  #nav-links {
+    border-top: 0.5px solid #42446e20;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.05);
+    position: fixed;
+    right: 0px;
+    top: 60px;
+    display: block;
+    text-align: left;
+    padding: 50px 0;
+    background: var(--nav-bg-color);
+    height: 100vh;
+    width: 0px;
+    z-index: 5;
+    transition: width 0.2s ease-in-out;
+  }
+
+  #nav-links li {
+    margin-left: 35px;
+    margin-bottom: 23px;
+  }
+
+  #open,
+  #close {
+    display: block;
+    color: var(--nav_section-heading);
+  }
+
+  #nav-links.active {
+    width: 50vw;
+    right: 0px;
+  }
+
+  .nav-content {
+    margin: 0 10px;
+  }
+  .cv {
+    display: none;
+  }
+  .mobile {
+    margin-top: 7px;
+    height: 60px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .responsive-contact {
+    font-size: 12px;
+    display: block;
+    background: var(--button_bg_color);
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  .last-para {
+    margin-top: -7px;
+  }
+  .responsive-contact a {
+    text-decoration: none;
+    font-weight: 500;
+    background: #13b0f5;
+    background: -webkit-linear-gradient(
+      to bottom right,
+      #13b0f5 42%,
+      #e70faa 100%
+    );
+    background: -moz-linear-gradient(
+      to bottom right,
+      #13b0f5 42%,
+      #e70faa 100%
+    );
+    background: linear-gradient(to bottom right, #13b0f5 42%, #e70faa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .responsive-contact:hover {
+    cursor: pointer;
+    background: #f0eef0;
+  }
+  /* navbar size reduce  */
+  .nav {
+    height: 60px;
+  }
+  .nav-content {
+    height: 60px;
+  }
+  .nav-content img {
+    width: 100px;
+  }
+  .github-icon,
+  .linkedin-icon {
+    font-size: 22px;
+    margin-top: 0px;
+  }
+}
+
+@media (width<540px) {
+  /* #nav-links {
+    right: -350px;
+  } */
+  .mobile {
+    margin-top: -2px;
+    gap: 0.7rem;
+  }
+}
+
+@media (width < 368px) {
+  .logo {
+    display: none;
+  }
+}
